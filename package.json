@@ -6,7 +6,6 @@
   "dependencies": {
     "@actions/core": "^1.2.4",
     "@actions/github": "^3.0.0",
-    "firebase": "^9.0.2",
     "jest": "^26.0.1"
   },
   "devDependencies": {},
