@@ -41,3 +41,6 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "hello-app-23220" #Must be unique in Heroku
           heroku_email: "eliotmat@gmail.com"
+          usedocker: false
+          branch: "main"
+          healthcheck: "https://[hello-app-23220].herokuapp.com/health"
